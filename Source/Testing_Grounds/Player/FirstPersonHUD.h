@@ -4,15 +4,15 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/HUD.h"
-#include "Testing_GroundsHUD.generated.h"
+#include "FirstPersonHUD.generated.h"
 
 UCLASS()
-class ATesting_GroundsHUD : public AHUD
+class AFirstPersonHUD : public AHUD
 {
 	GENERATED_BODY()
 
 public:
-	ATesting_GroundsHUD();
+	AFirstPersonHUD();
 
 	/** Primary draw call for the HUD */
 	virtual void DrawHUD() override;
